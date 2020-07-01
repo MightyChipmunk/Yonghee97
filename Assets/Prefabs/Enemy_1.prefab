@@ -100,6 +100,7 @@ MonoBehaviour:
   CurrentSprite: {fileID: 21300000, guid: 8a9b70a2856f6c447a29a6965985f6ff, type: 3}
   NextSprite: {fileID: 21300000, guid: 754e6d85be6ed874a83ebc7373b83eef, type: 3}
   moveSpeed: 4
+  repeat: 0.3
 --- !u!61 &4145000821193544868
 BoxCollider2D:
   m_ObjectHideFlags: 0

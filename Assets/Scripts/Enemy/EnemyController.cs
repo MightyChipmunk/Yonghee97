@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1Controller : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     private Transform tr;
     private SpriteRenderer spriteRenderer;
@@ -10,13 +10,14 @@ public class Enemy1Controller : MonoBehaviour
     public Sprite CurrentSprite;
     public Sprite NextSprite;
     public float moveSpeed;
+    public float repeat;
     // Start is called before the first frame update
     void Start()
     {
         tr = GetComponent<Transform>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = CurrentSprite;
-        InvokeRepeating("sym", 0.3f, 0.3f);
+        InvokeRepeating("sym", repeat, repeat);
     }
 
     // Update is called once per frame

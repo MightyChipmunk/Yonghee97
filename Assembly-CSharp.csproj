@@ -63,14 +63,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BulletController.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossCollide.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossController.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossSpawn.cs" />
     <Compile Include="Assets\Scripts\Collide.cs" />
-    <Compile Include="Assets\Scripts\ECollide.cs" />
-    <Compile Include="Assets\Scripts\Enemy1Controller.cs" />
-    <Compile Include="Assets\Scripts\Enemy1Spawn.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\EBulletController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ECollide.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy2Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy3Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemySpawn.cs" />
+    <Compile Include="Assets\Scripts\Ost.cs" />
+    <Compile Include="Assets\Scripts\Player\BulletController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCollide.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

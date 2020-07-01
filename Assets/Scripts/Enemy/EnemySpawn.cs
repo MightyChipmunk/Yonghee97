@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1Spawn : MonoBehaviour
+public class EnemySpawn : MonoBehaviour
 {
     public float interval = 3.0f;
 
@@ -22,7 +22,10 @@ public class Enemy1Spawn : MonoBehaviour
 
     void Spawn()
     {
-        float Xpos = Random.Range(-6.5f, 6.5f);
-        Instantiate(Enemy, new Vector3(Xpos, 6.0f), Quaternion.identity);
+        if (SpawnManager.isboss == false)
+        {
+            float Xpos = Random.Range(-6.5f, 6.5f);
+            Instantiate(Enemy, new Vector3(Xpos, 6.0f), Quaternion.identity);
+        }
     }
 }
