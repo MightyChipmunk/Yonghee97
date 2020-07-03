@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 6269445064546653374, guid: 809418a623b39e54989775063dcb3b01, type: 3}
   effect: {fileID: 5788273826363627589, guid: 1e80edad7d9f5464c976dbc593adfe38, type: 3}
-  score: 100
+  score: 150
   hp: 40
 --- !u!114 &4895165170526292700
 MonoBehaviour:

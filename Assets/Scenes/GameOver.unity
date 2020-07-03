@@ -161,9 +161,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 47319486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f0c2fe6fa1978e46a11aa96b4edd2e9, type: 3}
+  m_Script: {fileID: 11500000, guid: db65381e8c9ad544dbb6924ee405336d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interval: 4
+  scene: Title
 --- !u!1 &353173645
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,20 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
+    public float interval;
+    public string scene;
+
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("ToMain", 4.0f);
+        
+        Invoke("ToNext", interval);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+        if (Input.anyKeyDown)
+        {
+            ToNext();
+        }
     }
 
-    void ToMain()
+    void ToNext()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene(scene);
     }
 }
